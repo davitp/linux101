@@ -1,3 +1,4 @@
+#include <math.h>
 #define NUMBER 100
 
 int main(){
