@@ -70,6 +70,9 @@ int main(int argc, char* argv[]){
         printf("%s", buffer);
     }
 
+    // release memory
+    free(buffer);
+
     // report success
     printf("Completed reading file. Overall bytes: %ld\n", overallBytes);
 
