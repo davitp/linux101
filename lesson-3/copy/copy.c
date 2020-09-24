@@ -85,6 +85,10 @@ int main(int argc, char* argv[]){
         }
     }
 
+    // close files
+    close(sourceFd);
+    close(destinationFd);
+
     // release memory
     free(buffer);
 

@@ -70,6 +70,9 @@ int main(int argc, char* argv[]){
         printf("%s", buffer);
     }
 
+    // close file
+    close(file)
+
     // release memory
     free(buffer);
 
