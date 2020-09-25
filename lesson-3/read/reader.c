@@ -71,7 +71,7 @@ int main(int argc, char* argv[]){
     }
 
     // close file
-    close(file)
+    close(file);
 
     // release memory
     free(buffer);

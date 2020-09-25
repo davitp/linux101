@@ -1,0 +1,6 @@
+total 12
+drwxr-xr-x 2 davitp davitp 4096 Sep 25 11:53 .
+drwxr-xr-x 6 davitp davitp 4096 Sep 25 10:14 ..
+-rw-r--r-- 1 davitp davitp    0 Sep 25 11:54 newfile.txt
+-rw-r--r-- 1 davitp davitp 3769 Sep 25 10:14 testfile.txt
+hello
