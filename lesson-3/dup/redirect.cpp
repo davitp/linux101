@@ -37,9 +37,19 @@ int main()
         std::cerr << "Cloud not open/create a file for writing stdout stream in" << std::endl;
         exit(errno);
     }
+    
+    int cerrDescriptor = dup2(1, 2);
+
+    if(cerrDescriptor == -1){
+        std::cerr << "Cloud not open/create a file for writing stdout stream in" << std::endl;
+        exit(errno);
+    }
 
     // write text (will appear in file and not in console)
     std::cout << "Writing some text" << std::endl;
+    std::cerr << "Other error text" << std::endl;
+
+    write(saveStdout, "Hello\n", 6); 
 
     // close file
     close(file);

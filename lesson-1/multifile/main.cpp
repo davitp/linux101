@@ -1,4 +1,4 @@
-void printMyMessage(const char* message);
+#include "message.h"
 
 int main(){
     printMyMessage("Hello");
