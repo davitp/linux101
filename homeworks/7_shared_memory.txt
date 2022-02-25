@@ -1,0 +1,14 @@
+Shared Memory
+
+Implement Producer-Consumer solution with processes.
+
+Problem:
+- Implement two programs: Producer and Consumer
+- Both are aware of a global share resource with name "prod-cons-buffer", which is a shared memory in the system
+- The resource is a memory with capacity of one page size
+- First program adds the next character into the memory if not full yet in the infinite loop
+- Second program removes the latest added character if not empty in the infinite loop
+
+Hint: Use shared memory, named semaphores to sync across processes. 
+
+Have a Makefile. Pay attention to coding style and comments. 

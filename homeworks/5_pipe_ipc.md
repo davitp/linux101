@@ -1,4 +1,4 @@
-Homework 5: Pipe Communication
+Pipe Communication
 
 Write a program that gets from outside a number N (N > 1 000 000), creates an array of size N and fills it with random integer numbers. 
 After that program should calculate the sum of array this way:
