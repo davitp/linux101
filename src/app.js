@@ -1,7 +1,7 @@
 import './assets/less/main-theme.less'
 import PageRouter from 'page-router';
 import Helmet from 'react-helmet';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
 
@@ -11,9 +11,9 @@ const App = () => {
         <title>Loading</title>
       </Helmet>
 
-      <HashRouter>
+      <BrowserRouter basename='/linux101'>
         <PageRouter />
-      </HashRouter>
+      </BrowserRouter>
 
     </>
   )

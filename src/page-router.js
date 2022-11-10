@@ -12,12 +12,17 @@ const page = (elem) => (
 const IndexPage = lazy(() => import('pages/index'));
 const NotFoundPage = lazy(() => import('pages/not-found'));
 
+const IntroductionTopicPage = lazy(() => import('pages/topics/introduction'));
+
 
 const PageRouter = () => {
     return (
         <Routes>
             <Route element={<MainLayout />}>
                 <Route index element={page(<IndexPage />)} />
+                <Route path="topics">
+                <Route path="introduction" element={page(<IntroductionTopicPage />)} />
+            </Route>
             </Route>
             <Route path="/not-found" element={page(<NotFoundPage />)} />
             <Route path="*" element={page(<NotFoundPage />)} />

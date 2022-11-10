@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Layout, Menu } from "antd"
-import { Outlet } from "react-router-dom"
-import { HomeOutlined } from "@ant-design/icons"
+import { Outlet, useNavigate } from "react-router-dom"
+import { FolderOutlined, HomeOutlined } from "@ant-design/icons"
 import HeaderMenu from "./header-menu"
 
 const menuItems = [
@@ -9,13 +9,39 @@ const menuItems = [
       key: 'home',
       icon: <HomeOutlined />,
       label: 'Home'
+   },
+   {
+      key: 'topics',
+      icon: <FolderOutlined />,
+      label: 'Topics',
+      children: [
+         {
+            key: 'topic-introduction',
+            label: 'Introduction'
+         }
+      ]
    }
 ]
-
 
 export default function MainLayout() {
 
    const [collapsed, setCollapsed] = useState(false)
+   const navigate = useNavigate();
+
+   const onKeyChange = key => {
+
+      switch(key){
+         case 'home':
+            navigate('/');
+            break;
+         case 'topic-introduction':
+            navigate('/topics/introduction');
+            break;
+         default:
+            // do nothing
+      }
+   
+   }
 
    return (
       <>
@@ -40,6 +66,7 @@ export default function MainLayout() {
                      mode="inline"
                      defaultSelectedKeys={collapsed ? undefined : ['home']}
                      defaultOpenKeys={collapsed ? undefined : ['home']}
+                     onClick={({key}) => onKeyChange(key)}
                      style={{
                         height: '100%',
                         borderRight: 0,
