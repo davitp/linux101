@@ -1,47 +1,12 @@
 import React, { useState } from "react"
-import { Layout, Menu } from "antd"
-import { Outlet, useNavigate } from "react-router-dom"
-import { FolderOutlined, HomeOutlined } from "@ant-design/icons"
+import { Layout } from "antd"
+import { Outlet } from "react-router-dom"
 import HeaderMenu from "./header-menu"
-
-const menuItems = [
-   {
-      key: 'home',
-      icon: <HomeOutlined />,
-      label: 'Home'
-   },
-   {
-      key: 'topics',
-      icon: <FolderOutlined />,
-      label: 'Topics',
-      children: [
-         {
-            key: 'topic-introduction',
-            label: 'Introduction'
-         }
-      ]
-   }
-]
+import SiderMenu from "./sider-menu"
 
 export default function MainLayout() {
 
    const [collapsed, setCollapsed] = useState(false)
-   const navigate = useNavigate();
-
-   const onKeyChange = key => {
-
-      switch(key){
-         case 'home':
-            navigate('/');
-            break;
-         case 'topic-introduction':
-            navigate('/topics/introduction');
-            break;
-         default:
-            // do nothing
-      }
-   
-   }
 
    return (
       <>
@@ -61,18 +26,7 @@ export default function MainLayout() {
                   breakpoint="md"
                   collapsible
                   onCollapse={setCollapsed}>
-
-                  <Menu
-                     mode="inline"
-                     defaultSelectedKeys={collapsed ? undefined : ['home']}
-                     defaultOpenKeys={collapsed ? undefined : ['home']}
-                     onClick={({key}) => onKeyChange(key)}
-                     style={{
-                        height: '100%',
-                        borderRight: 0,
-                     }}
-                     items={menuItems}
-                  />
+                     <SiderMenu collapsed={collapsed} />
                </Layout.Sider>
                <Layout.Content style={{
                   margin: '18px 18px',
