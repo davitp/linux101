@@ -3,19 +3,10 @@ layout: default
 title: Topics
 nav_order: 2
 has_children: true
+permalink: /topics/
 ---
 
 # Topics
-{: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
+We grouped the course materials by the topics to make the navigation easier to use and find exact artifacts needed.
 
-1. TOC
-{:toc}
-
----
-
-## Topics Covered
-
-The is a parent content

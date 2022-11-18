@@ -10,17 +10,44 @@ baseurl: /linux101
 url: https://davitp.github.io 
 domain: davitp.github.io 
 
+permalink: pretty
+
 twitter_username: davit_pet
 github_username:  davitp
 
 # More links
 aux_links:
-  "Edit on Github":
+  "Github":
     - "//github.com/davitp/linux101"
+
+aux_links_new_tab: true
 
 # Build settings
 remote_theme: just-the-docs/just-the-docs
 
 # Plugins
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
+
+nav_external_links:
+  - title: Man Pages 
+    url: https://linux.die.net/man/
+    hide_icon: false
+
+nav_external_links_new_tab: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer last edited timestamp
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p" 
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true
+gh_edit_link_text: "Improve the page on GitHub."
+gh_edit_repository: "https://github.com/davitp/linux101" 
+gh_edit_branch: "master" 
+gh_edit_source: docs 
+gh_edit_view_mode: "edit" 
