@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Compilation
-parent: Samples
+parent: Guides
 ---
 
 # Compilation and build process
