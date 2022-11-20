@@ -25,7 +25,8 @@ make
 ./copy source-file destination-file
 ```
 
-After copy is completed, program should print following message to the console :
+After copy is completed, program should print following message to the console:
+
 ```
 Successfully copied X bytes (data: M, hole: N).
 ```
