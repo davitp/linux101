@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Producer-Consumer Problem
-nav_order: 9
+nav_order: 10
 parent: Topics
 ---
 
@@ -23,8 +23,10 @@ The topic continues discussion about synchronization problems and defines the pr
 
 1. Definition of producer-consumer problem, its variations.
 2. Solution strategies of multi-threaded producer-consumer problem.
+3. Conditional variables, wait/notify pattern. 
 
 ## Practice
 
-1. Todo
+1. Write a typical multi-threaded producer consumer program to demonstrate synchronization problem.
+2. Solve the problem using either semaphores or conditional variables. 
 
