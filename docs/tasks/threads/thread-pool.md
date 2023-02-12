@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Thread Pool
+title: 'TH-2: Thread Pool'
 parent: Threads
 grand_parent: Tasks
 nav_order: 2
 ---
 
-# The thread pool implementation
+# TH-2: The thread pool implementation
 
 ### Requirements 
 

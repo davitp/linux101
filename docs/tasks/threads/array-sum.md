@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Array Summary
+title: 'TH-1: Array Summary'
 parent: Threads
 grand_parent: Tasks
 nav_order: 1
 ---
 
-# The array summary
+# TH-1: The array summary
 
 ### Requirements 
 
