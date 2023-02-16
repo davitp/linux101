@@ -2,7 +2,7 @@
 layout: default
 title: Network Programming
 nav_order: 15
-parent: Topics
+parent: Linux Programming
 ---
 
 # Introduction to the network programming 

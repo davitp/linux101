@@ -2,7 +2,7 @@
 layout: default
 title: Processes
 nav_order: 7
-parent: Topics
+parent: Linux Programming
 ---
 
 # Overview of the concept of process in Unix operating systems 

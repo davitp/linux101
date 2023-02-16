@@ -2,7 +2,7 @@
 layout: default
 title: Linux Programming
 nav_order: 4
-parent: Topics
+parent: Linux Programming
 ---
 
 # Introduction to Linux Programming

@@ -2,7 +2,7 @@
 layout: default
 title: System Calls
 nav_order: 2
-parent: Topics
+parent: Linux Programming
 ---
 
 # System calls, communication between hardware and software, POSIX standard.

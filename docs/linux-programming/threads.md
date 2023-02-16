@@ -2,7 +2,7 @@
 layout: default
 title: Threads
 nav_order: 8
-parent: Topics
+parent: Linux Programming
 ---
 
 # Introduction to threading: parallelism and concurrency

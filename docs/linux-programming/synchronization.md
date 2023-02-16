@@ -2,7 +2,7 @@
 layout: default
 title: Synchronization
 nav_order: 9
-parent: Topics
+parent: Linux Programming
 ---
 
 # Introduction to synchronization problems

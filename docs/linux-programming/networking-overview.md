@@ -2,7 +2,7 @@
 layout: default
 title: Networking Overview
 nav_order: 14
-parent: Topics
+parent: Linux Programming
 ---
 
 # Overview of the networking and the main protocols

@@ -2,7 +2,7 @@
 layout: default
 title: Pipes and FIFO Files
 nav_order: 13
-parent: Topics
+parent: Linux Programming
 ---
 
 # Anonymous pipes and FIFO files 

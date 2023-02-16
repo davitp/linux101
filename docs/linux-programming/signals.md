@@ -2,7 +2,7 @@
 layout: default
 title: Signals
 nav_order: 12
-parent: Topics
+parent: Linux Programming
 ---
 
 # Using signals for the inter-process communication 

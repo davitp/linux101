@@ -2,7 +2,7 @@
 layout: default
 title: Producer-Consumer Problem
 nav_order: 10
-parent: Topics
+parent: Linux Programming
 ---
 
 # The producer-consumer problem definition and solutions

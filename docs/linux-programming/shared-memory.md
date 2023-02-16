@@ -2,7 +2,7 @@
 layout: default
 title: IPC with Shared Memory
 nav_order: 11
-parent: Topics
+parent: Linux Programming
 ---
 
 # The inter-process communication with shared memory 

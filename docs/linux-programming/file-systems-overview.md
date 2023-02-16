@@ -2,7 +2,7 @@
 layout: default
 title: File Systems Overview
 nav_order: 3
-parent: Topics
+parent: Linux Programming
 ---
 
 # Overview of the Unix File Systems
