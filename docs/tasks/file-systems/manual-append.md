@@ -15,14 +15,13 @@ Writing should happen into two different file descriptors but write into the sam
 
 ### Requirements 
 
-In this assignment, you will write a C/C++ program to write two lines of text into the file "exclusive_file.log" using two separate file descriptors. The challenge is to perform this task without explicitly or implicitly changing the offset of the file descriptor (e.g., using "seek" or "open" with "O_APPEND" mode).
-hint: use dup/dup2
-
 - Write a C/C++ program that gets the filepath with the first argument and opens it.
 - File **should not** be opened with the O_APPEND file. 
 - You are not allowed to use seek/lseek to move the cursor to the end.
 - The program writes two lines: "first line" and "second line". Each line is written in a different descriptor.
 - After write, the file should contain both lines in the same file.
+
+Hint: you may use dup/dup2.
 
 ### Expected result
 
