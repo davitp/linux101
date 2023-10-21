@@ -6,7 +6,7 @@ grand_parent: Tasks
 nav_order: 1
 ---
 
-# FS-3: Read from the file
+# FS-1: Read from the file
 
 ### Description
 You need to implement a program that does the same thing as the **cat** command in the Linux.
