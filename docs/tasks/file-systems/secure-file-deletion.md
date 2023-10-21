@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 'FS-4: Secure file deletion'
+title: 'FS-3: Secure file deletion'
 parent: File Systems
 grand_parent: Tasks
-nav_order: 4
+nav_order: 3
 ---
 
-# FS-4: Secure file deletion
+# FS-3: Secure file deletion
 
 ### Description
 Your task is to implement a C++ program that deletes the file from the filesystem along with its content by replacing every byte in the files with '\0' character.

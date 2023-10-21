@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 'FS-3: Copy a file accounting holes'
+title: 'FS-10: Copy a file accounting holes'
 parent: File Systems
 grand_parent: Tasks
-nav_order: 3
+nav_order: 10
 ---
 
-# FS-3: Copy a file accounting holes
+# FS-10: Copy a file accounting holes
 
 ### Requirements 
 

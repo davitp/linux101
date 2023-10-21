@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 'FS-5: Redirect standard input'
+title: 'FS-4: Redirect standard input'
 parent: File Systems
 grand_parent: Tasks
-nav_order: 5
+nav_order: 4
 ---
 
-# FS-5: Redirect standard input
+# FS-4: Redirect standard input
 
 ### Description
 By default, program gets standard input waiting for the keyboard input. Your task is to make any program to read input from the file instead of waiting for the keyboard input without changing usages of std::cin or scanf.

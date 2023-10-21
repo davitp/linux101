@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 'FS-6: Manual append'
+title: 'FS-5: Manual append'
 parent: File Systems
 grand_parent: Tasks
-nav_order: 6
+nav_order: 5
 ---
 
-# FS-6: Manaul append
+# FS-5: Manaul append
 
 ### Description
 
