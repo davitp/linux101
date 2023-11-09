@@ -1,12 +1,12 @@
 ---
 layout: default
-title: 'PS-1: Interactive shell'
+title: 'PS-2: Interactive shell'
 parent: Processes
 grand_parent: Tasks
-nav_order: 1
+nav_order: 2
 ---
 
-# PS-1: Interactive shell
+# PS-2: Interactive shell
 
 ### Requirements 
 
